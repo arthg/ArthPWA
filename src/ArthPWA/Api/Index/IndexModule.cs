@@ -6,7 +6,7 @@ namespace ArthPWA.Api.Index
     {
         public IndexModule()
         {
-            Get["/"] = _ => "Hello Frickin World!";
+            Get["/"] = _ => Negotiate.WithView("Web/index.html");
         }
     }
 }

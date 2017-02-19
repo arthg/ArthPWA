@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="icon.png" />
     <Content Include="Web.config" />
+    <Content Include="Web\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\Index\IndexModule.cs" />
