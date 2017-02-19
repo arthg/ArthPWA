@@ -76,6 +76,7 @@
   <ItemGroup>
     <Compile Include="Api\Index\IndexModuleTests.cs" />
     <Compile Include="Api\Weights\WeightsModuleTests.cs" />
+    <Compile Include="Api\Weights\WeightsServiceTests.cs" />
     <Compile Include="Helpers\RandomData.cs" />
     <Compile Include="Helpers\TestBrowserExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,6 +92,9 @@
       <Project>{887a8565-4a10-44c8-82ef-f2f2d1d2bfbf}</Project>
       <Name>ArthPWA</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AutoMoq\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
