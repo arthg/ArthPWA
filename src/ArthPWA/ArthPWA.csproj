@@ -71,7 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\Index\IndexModule.cs" />
+    <Compile Include="Api\Weights\WeightsService.cs" />
     <Compile Include="Api\Weights\WeightsModule.cs" />
+    <Compile Include="Common\StringEnumBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

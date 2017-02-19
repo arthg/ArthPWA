@@ -4,13 +4,19 @@ namespace ArthPWA.Api.Weights
 {
     public class WeightsModule : NancyModule
     {
-        public WeightsModule() : base("/weights")
+        public WeightsModule(IWeightsService weightsService) : base("/weights/")
         {
             Get["/"] = _ => "Hello!";
 
-            Post["/"] = _ => { return Negotiate
-                .WithModel(new { id = 0 })
-                .WithStatusCode(HttpStatusCode.Created); };
+            Post["/"] = _ =>
+            {
+                var newId = weightsService.Create();
+                var locationUri = ModulePath + newId;
+                return Negotiate
+                .WithModel(new { id = newId })
+                .WithHeader("Location", locationUri)
+                .WithStatusCode(HttpStatusCode.Created);
+            };
         }
     }
 }
