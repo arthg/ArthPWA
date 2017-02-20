@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CFEB02C8-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArthPWA.Tests", "..\ArthPWA.Tests\ArthPWA.Tests.csproj", "{B79BE0F3-62C4-452F-A436-32399B8531F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharpTestClient", "..\RestSharpTestClient\RestSharpTestClient.csproj", "{7E4C1FD4-F761-448E-9A96-489290DB7899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B79BE0F3-62C4-452F-A436-32399B8531F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B79BE0F3-62C4-452F-A436-32399B8531F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B79BE0F3-62C4-452F-A436-32399B8531F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4C1FD4-F761-448E-9A96-489290DB7899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4C1FD4-F761-448E-9A96-489290DB7899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4C1FD4-F761-448E-9A96-489290DB7899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4C1FD4-F761-448E-9A96-489290DB7899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{887A8565-4A10-44C8-82EF-F2F2D1D2BFBF} = {D8593F4F-24D5-4CE3-8EB1-0751C4C23F8F}
 		{B79BE0F3-62C4-452F-A436-32399B8531F6} = {CFEB02C8-7BCB-4D2C-9C20-A242557C0088}
+		{7E4C1FD4-F761-448E-9A96-489290DB7899} = {D8593F4F-24D5-4CE3-8EB1-0751C4C23F8F}
 	EndGlobalSection
 EndGlobal
