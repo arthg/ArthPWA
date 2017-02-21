@@ -79,6 +79,7 @@
     <Compile Include="Api\Weights\WeightsServiceTests.cs" />
     <Compile Include="Helpers\RandomData.cs" />
     <Compile Include="Helpers\TestBrowserExtensions.cs" />
+    <Compile Include="Infrastructure\BootstrapperTests.cs" />
     <Compile Include="Models\WeightEntryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

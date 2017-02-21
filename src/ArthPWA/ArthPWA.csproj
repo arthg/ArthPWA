@@ -80,6 +80,7 @@
     <Compile Include="Common\SystemTime.cs" />
     <Compile Include="DataAccess\IRepository.cs" />
     <Compile Include="Models\WeightEntry.cs" />
+    <Compile Include="MongoDB\WeightsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

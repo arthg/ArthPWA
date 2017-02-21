@@ -1,4 +1,5 @@
 ﻿using System;
+using ArthPWA.Models;
 
 namespace ArthPWA.Api.Weights
 {
@@ -9,14 +10,17 @@ namespace ArthPWA.Api.Weights
 
     public class WeightsService : IWeightsService
     {
-        public WeightsService()
-        {
+        private IWeightsRepository _weightsRepository;
 
+        public WeightsService(IWeightsRepository weightsRepository)
+        {
+            _weightsRepository = weightsRepository;
         }
 
         public string Create()
         {
-            throw new NotImplementedException();
+            var weightEntry = new WeightEntry();
+            return _weightsRepository.CreateResource(weightEntry);
         }
     }
 }
