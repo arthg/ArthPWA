@@ -79,6 +79,7 @@
     <Compile Include="Api\Weights\WeightsServiceTests.cs" />
     <Compile Include="Helpers\RandomData.cs" />
     <Compile Include="Helpers\TestBrowserExtensions.cs" />
+    <Compile Include="Models\WeightEntryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AutoMoq\" />
+    <Folder Include="MongoDB\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,6 +9,11 @@ namespace ArthPWA.Api.Weights
 
     public class WeightsService : IWeightsService
     {
+        public WeightsService()
+        {
+
+        }
+
         public string Create()
         {
             throw new NotImplementedException();

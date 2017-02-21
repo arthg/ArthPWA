@@ -71,9 +71,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\Index\IndexModule.cs" />
+    <Compile Include="Api\Weights\IWeightsRepository.cs" />
     <Compile Include="Api\Weights\WeightsService.cs" />
     <Compile Include="Api\Weights\WeightsModule.cs" />
+    <Compile Include="Common\CrudBase\ResourceWithId.cs" />
+    <Compile Include="Common\CrudBase\Timestamp.cs" />
     <Compile Include="Common\StringEnumBase.cs" />
+    <Compile Include="Common\SystemTime.cs" />
+    <Compile Include="DataAccess\IRepository.cs" />
+    <Compile Include="Models\WeightEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
