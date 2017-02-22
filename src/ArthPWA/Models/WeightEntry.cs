@@ -7,6 +7,7 @@ namespace ArthPWA.Models
     {
         public Timestamp Created { get; set; }
         public Timestamp LastModified { get; set; }
+        public long Weight { get; set; }
 
         public WeightEntry()
         {

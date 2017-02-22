@@ -19,7 +19,10 @@ namespace ArthPWA.Api.Weights
 
         public string Create()
         {
-            var weightEntry = new WeightEntry();
+            var weightEntry = new WeightEntry
+            {
+                
+            };
             return _weightsRepository.CreateResource(weightEntry);
         }
     }
