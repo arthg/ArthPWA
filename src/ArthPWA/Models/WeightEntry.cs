@@ -5,6 +5,7 @@ namespace ArthPWA.Models
 {
     public sealed class WeightEntry : ResourceWithId, ITimeMarkable
     {
+        public string Version { get; set; }
         public Timestamp Created { get; set; }
         public Timestamp LastModified { get; set; }
         public long Weight { get; set; }

@@ -3,7 +3,7 @@ using Nancy.Testing;
 using Nancy;
 using SharpTestsEx;
 using ArthPWA.Api.Weights;
-using ArthPWA.Tests.Helpers;
+using ArthPWA.Tests.Common.Helpers;
 using Moq;
 
 namespace ArthPWA.Tests.Api.Weights

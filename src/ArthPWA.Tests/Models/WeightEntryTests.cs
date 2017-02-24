@@ -2,7 +2,7 @@
 using ArthPWA.Models;
 using SharpTestsEx;
 using ArthPWA.Common;
-using ArthPWA.Tests.Helpers;
+using ArthPWA.Tests.Common.Helpers;
 using System;
 
 namespace ArthPWA.Tests.Models

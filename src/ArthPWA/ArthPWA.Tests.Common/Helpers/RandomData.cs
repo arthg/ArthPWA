@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using Castle.Core.Internal;
 
-namespace ArthPWA.Tests.Helpers
+namespace ArthPWA.Tests.Common.Helpers
 {
     public static class RandomData
     {

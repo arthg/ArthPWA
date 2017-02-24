@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using ArthPWA.Common;
 
-namespace ArthPWA.Tests.Helpers
+namespace ArthPWA.Tests.Common.Helpers
 {
     public static class TestBrowserExtensions
     {

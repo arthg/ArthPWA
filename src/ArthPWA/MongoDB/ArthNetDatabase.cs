@@ -11,9 +11,8 @@ namespace ArthPWA.MongoDB
     {
         private readonly MongoDatabase _database;
 
-        public ArthNetDatabase()
+        public ArthNetDatabase(string connectionString)
         {
-            var connectionString = "mongodb://localhost/ArthNet";
             var client = new MongoClient(connectionString);
             var server = client.GetServer();
             var mongoUrl = MongoUrl.Create(connectionString);

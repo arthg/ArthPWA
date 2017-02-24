@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharpTestClient", "..\R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArthPWA.Tests.Integration", "ArthPWA.Tests.Integration\ArthPWA.Tests.Integration.csproj", "{280C4863-161D-41A6-88BF-1B5965069B80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArthPWA.Tests.Common", "ArthPWA.Tests.Common\ArthPWA.Tests.Common.csproj", "{6BD14A46-97B0-486A-9E65-5CB5BF62997A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{280C4863-161D-41A6-88BF-1B5965069B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280C4863-161D-41A6-88BF-1B5965069B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280C4863-161D-41A6-88BF-1B5965069B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD14A46-97B0-486A-9E65-5CB5BF62997A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD14A46-97B0-486A-9E65-5CB5BF62997A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD14A46-97B0-486A-9E65-5CB5BF62997A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD14A46-97B0-486A-9E65-5CB5BF62997A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{B79BE0F3-62C4-452F-A436-32399B8531F6} = {CFEB02C8-7BCB-4D2C-9C20-A242557C0088}
 		{7E4C1FD4-F761-448E-9A96-489290DB7899} = {D8593F4F-24D5-4CE3-8EB1-0751C4C23F8F}
 		{280C4863-161D-41A6-88BF-1B5965069B80} = {CFEB02C8-7BCB-4D2C-9C20-A242557C0088}
+		{6BD14A46-97B0-486A-9E65-5CB5BF62997A} = {CFEB02C8-7BCB-4D2C-9C20-A242557C0088}
 	EndGlobalSection
 EndGlobal

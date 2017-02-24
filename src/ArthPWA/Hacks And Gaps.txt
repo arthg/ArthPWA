@@ -4,9 +4,14 @@ integration esp.
 deprecated method in ArthNetDatabase
 var server = client.GetServer();
 
-hard-coded connection string
-need the container to resolve string from web.config 
-
 use Event Store for event logging in repo layer(?)
 
 boot strapper tests
+
+TestBrowserExtensionTests
+
+all the commented out stuff - either deal or drop
+
+favicon
+
+something hung up running tests - integration??

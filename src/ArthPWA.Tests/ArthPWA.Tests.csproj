@@ -39,7 +39,6 @@
       <HintPath>..\ArthPWA\packages\CsQuery.1.3.3\lib\net40\CsQuery.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Moq, Version=4.5.30.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
       <HintPath>..\ArthPWA\packages\Moq.4.5.30\lib\net45\Moq.dll</HintPath>
       <Private>True</Private>
@@ -77,8 +76,6 @@
     <Compile Include="Api\Index\IndexModuleTests.cs" />
     <Compile Include="Api\Weights\WeightsModuleTests.cs" />
     <Compile Include="Api\Weights\WeightsServiceTests.cs" />
-    <Compile Include="Helpers\RandomData.cs" />
-    <Compile Include="Helpers\TestBrowserExtensions.cs" />
     <Compile Include="Infrastructure\BootstrapperTests.cs" />
     <Compile Include="Models\WeightEntryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +90,10 @@
     <ProjectReference Include="..\ArthPWA\ArthPWA.csproj">
       <Project>{887a8565-4a10-44c8-82ef-f2f2d1d2bfbf}</Project>
       <Name>ArthPWA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArthPWA\ArthPWA.Tests.Common\ArthPWA.Tests.Common.csproj">
+      <Project>{6bd14a46-97b0-486a-9e65-5cb5bf62997a}</Project>
+      <Name>ArthPWA.Tests.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
